@@ -21,6 +21,6 @@ _By Evan Hack_
  **Schedule:** 
  **Summer (April 30th - August 1st):** I will create the ground work or foundation of my project before the start of the Fall 2024 semester.
  **August 1st - October 16th:** I will have the first prototype completed.
- **Octobober 17th - Due Date:** The project will be complete.
+ **Octobober 17th - November 25th:** The project will be complete.
 
 
