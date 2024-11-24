@@ -86,7 +86,7 @@ Detail the configuration of the test environment:
 ---
 
 ### **Estimate**  
-Provide a brief summary of testing estimates (effort or cost). Link to detailed estimation documents if necessary.
+There will be zero cost for any tests. The entire product will use open resources that require no payment to run or test.
 
 ---
 
@@ -97,8 +97,7 @@ Provide a brief summary of testing estimates (effort or cost). Link to detailed 
 ---
 
 ### **Staffing and Training Needs**  
-- Identify the roles required for the testing process and their skills.  
-- Mention any training needed to ensure the required skills are met.
+Evan Hack is the person needed to code for the product. In order to complete this project one must have thourough knowledge in html, java, and how to manipulate API.
 
 ---
 
@@ -108,20 +107,27 @@ Evan Hack is the creator, coder, and scribe for the entire project.
 ---
 
 ### **Risks**  
-- List potential risks related to the testing.  
-- Provide a mitigation plan and contingency plan for each identified risk.
+The only risk identified so far is the chance that at any moment the API's used for th product are no longer valid or the website that distributed them is shutdown.
+My contingency plan is to locate and find other API's that gather weather information and implement those into my product.
 
 ---
 
 ### **Assumptions and Dependencies**  
-- List the assumptions made during the creation of the test plan.  
-- Outline dependencies that may affect the testing process.
+### My Assumptions are:
+- The weather API used to fetch the data is functional and reliable.
+- The test data is accurate.
+- Users will have access to a stable internet connection while using the website.
 
+### My Dependecies are:
+- The availability of third-party weather API's.
+- Hosting and server stability for the website.
+- Access to the test environments.
 ---
 
 ### **Approvals**  
-List the names and roles of individuals who must approve the test plan. If a printed copy is required, provide space for signatures and dates.
+Evan Hack: Creator
 
 ---
 
 **Signature:** 
+Evan Hack
