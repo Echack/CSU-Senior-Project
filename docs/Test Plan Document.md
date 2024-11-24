@@ -69,7 +69,7 @@ When the weather information displays it should...
 ### **Test Deliverables**  
 List the test deliverables, providing links to them if applicable:
 - Test Plan (this document)  
-- Test Cases: [Link Text](TestCases.md) 
+- [Test Cases](TestCases.md) 
 - Test Scripts  
 - Defect/Enhancement Logs  
 - Test Reports
