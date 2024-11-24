@@ -11,8 +11,8 @@
 | **Test Steps**             | 1. Launch the weather website. <br> 2. Enter a valid city name (e.g., "New York"). <br> 3. Click the "Search" button. |
 | **Test Data**              | City: New York                                                                              |
 | **Expected Result**        | The page should display current weather data, including temperature, humidity, and wind speed. |
-| **Actual Result**          | _(Leave this blank for testing)_                                                            |
-| **Pass/Fail**              | _(Leave this blank for testing)_                                                            |
+| **Actual Result**          | Displays incorrect weather data.                                                            |
+| **Pass/Fail**              | Fail                                                           |
 
 ---
 
