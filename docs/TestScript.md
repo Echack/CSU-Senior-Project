@@ -66,7 +66,6 @@ To validate the functionality of weather data display, history features, and the
 
 ---
 
-## **Notes**
-- Test data should be logged for debugging if discrepancies occur.
-- Results from manual and automated execution should be compared for accuracy.
+## **Code Used For Testing**
+[Code](https://github.com/Echack/CSU-Senior-Project/blob/master/Project/index.html)
 
