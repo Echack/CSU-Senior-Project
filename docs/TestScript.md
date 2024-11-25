@@ -67,5 +67,5 @@ To validate the functionality of weather data display, history features, and the
 ---
 
 ## **Code Used For Testing**
-[Code](https://github.com/Echack/CSU-Senior-Project/blob/master/Project/index.html)
+[Click Here](https://github.com/Echack/CSU-Senior-Project/blob/master/Project/index.html)
 
