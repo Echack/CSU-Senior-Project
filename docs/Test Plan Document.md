@@ -71,7 +71,8 @@ List the test deliverables, providing links to them if applicable:
 - Test Plan (this document)  
 - [Test Cases](TestCases.md) 
 - [Test Scripts](TestScript.md)
-- [Defect/Enhancement Logs](defectEnhancementLog.md)  
+- [Defect/Enhancement Logs](defectEnhancementLog.md)
+- Test Report
 
 ---
 
