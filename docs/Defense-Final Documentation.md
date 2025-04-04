@@ -25,15 +25,8 @@ _List all the programming languages, software libraries/frameworks, and hardware
 ---
 
 ## 4. Project Requirements  
-_Outline the requirements for the project, including functional and non-functional specifications._
-
-- Functional Requirements:  
-  - [ ] Requirement 1  
-  - [ ] Requirement 2  
-
-- Non-Functional Requirements:  
-  - [ ] Requirement A  
-  - [ ] Requirement B  
+Here is a link to the project requirements.
+[Link Text](https://github.com/Echack/CSU-Senior-Project/blob/master/docs/Senior%20Project%20Requirements%20Document.md)
 
 ---
 
@@ -71,6 +64,7 @@ Improvements and addition features that I would like to add in the future are...
 - Mobile functionality
 - Weather shown based on current location
 - More account features like notifications
+- More security features like MFA.
 
 ---
 
