@@ -49,7 +49,7 @@ _Describe the design, structure, and features of your implementation. Include de
 ---
 
 ## 6. Test Plan  
-_Describe how the project was tested, what methods were used, and which scenarios were covered._
+Here is a link to the test plan that establishes the type of testing used during the creation of the project.
 [Link Text](https://github.com/Echack/CSU-Senior-Project/blob/master/docs/Test%20Plan%20Document.md)
 
 
