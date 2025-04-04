@@ -48,7 +48,7 @@ _Describe the design, structure, and features of your implementation. Include de
 ![Screenshot 2](path/to/screenshot2.png)
 
 ### Source Code  
-[🔗 View the source code repository](URL_to_repository)
+[🔗 View the source code repository](https://github.com/Echack/CSU-Senior-Project/tree/master/Project)
 
 ---
 
