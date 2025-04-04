@@ -2,7 +2,10 @@
 
 ## 1. Statement of Purpose  
 ### Problem Statement  
-_Describe the purpose of your project and clearly state the problem it aims to solve._
+People apply weather forecasts to wear appropriate attire and stay comfortable throughout the day. The weather is, however, unpredictable, and contradictory data from various weather sources typically renders it impossible to make an estimation of what to anticipate. This can lead to discomfort or even illness from wearing inappropriate attire for the weather.
+
+In a bid to stop this, I propose creating a website that pools information from over one weather API to provide a more realistic and accurate picture of the current and future weather. Through providing more clarity, the tool will help users make better judgment when it comes to dressing up and getting ready for the day, especially since weather patterns become more unpredictable day by day.
+
 
 ---
 
