@@ -52,25 +52,25 @@ _Describe the design, structure, and features of your implementation. Include de
 
 ---
 
-## 6. Test Plan  
-Here is a link to the test plan that establishes the type of testing used during the creation of the project.
+## 6. Test Plan & Results
+Here is a link to the test plan that establishes the type of testing used during the creation of the project and the results found after testing.
 [Link Text](https://github.com/Echack/CSU-Senior-Project/blob/master/docs/Test%20Plan%20Document.md)
 
-
 ---
 
-## 7. Test Results  
-_Present the results of your testing in a clear format. Include tables or charts if necessary._
-
----
-
-## 8. Challenges Overcome  
+## 7. Challenges Overcome 
+I came across a couple challenges while creating the project. The first challenge was finding API's to use and learning how to properly use their data. After an hour or two of testing I resolved the issue by following a tutorial on how to manipulate API's and their data. The second was figuring out how to setup a proper server...
 _List and explain any significant challenges you encountered during the project and how you resolved them._
 
 ---
 
-## 9. Future Enhancements  
-_Identify potential improvements or additional features that could be added in the future._
+## 8. Future Enhancements  
+Improvements and addition features that I would like to add in the future are...
+- Music
+- More fluent weather displays
+- Mobile functionality
+- Weather shown based on current location
+- More account features like notifications
 
 ---
 
