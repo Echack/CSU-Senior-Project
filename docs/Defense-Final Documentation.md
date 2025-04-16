@@ -30,7 +30,8 @@ Here is a link to the project requirements.
 ---
 
 ## 5. Project Implementation Description & Explanation  
-_Describe the design, structure, and features of your implementation. Include detailed explanations of how the system works._
+When designing this project I wanted it to look simplistic in way to where it would not be overwhelming to users. I used calming colors for the background to complement this design choice.
+The overall design is comprised of five buttons that control the use of the project. These buttons are "Contact me", "Sign in", "Search", "Add", and "C/F". The "C/F" button was implemented so users have the choice of switching between the two measurements of temperature based on what they are the most familiar with. To complement the simplicity of the design the project only allows the use of three different locations. If users made a mistake and want to remove a location a remove feature was added so all they had to do was click it to remove the weather location. If users want to only change the display of the initial weather then all they have to do is type in a location and then click the search button. The "Contact Me" button was installed so that users would be able to contact the creator if any issues were to arise. In order for users to save their chosen locations an account system was created. Users are given the option to sign up or to sign in if an account has already been made. The overall design of this project was centered around simplicity and comfort so that any user who uses the project will feel at ease.
 
 ### Screenshots  
 - **Fig 1.** Here is the layout and design. 
@@ -69,8 +70,7 @@ Here is a link to the test plan that establishes the type of testing used during
 ---
 
 ## 7. Challenges Overcome 
-I came across a couple challenges while creating the project. The first challenge was finding API's to use and learning how to properly use their data. After an hour or two of testing I resolved the issue by following a tutorial on how to manipulate API's and their data. The second was figuring out how to setup a proper server...
-_List and explain any significant challenges you encountered during the project and how you resolved them._
+I came across a couple challenges while creating the project. The first challenge was finding API's to use and learning how to properly use their data. After an hour or two of testing I resolved the issue by following a tutorial on how to manipulate API's and their data. The second was figuring out how to setup a proper way of storying user information so I could create an account feature. I used Firebase to help me store passwords behind layers of security. Firebase stores user sign in information and saved weather data so that users will be able to have a personal connection to the site.
 
 ---
 
