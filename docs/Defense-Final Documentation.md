@@ -16,7 +16,6 @@ _Provide any background research relevant to your project. Mention existing solu
 ---
 
 ## 3. Project Language(s), Software, and Hardware  
-_List all the programming languages, software libraries/frameworks, and hardware components used in this project._
 
 - **Languages:**  Java, HTML, and CSS.
 - **Software:**  Visual Studio Code and Firebase
