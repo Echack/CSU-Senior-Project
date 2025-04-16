@@ -42,7 +42,7 @@ _Describe the design, structure, and features of your implementation. Include de
 - **Fig 3.** When using the search bar and clicking add you can create up to three weather displays.  
 ![Screenshot 2](SP_screenshot3.png)
 
-- **Fig 4.** Description of another screenshot  
+- **Fig 4.** When clicking on each weather display it will fade out the display and give a delete option.
 ![Screenshot 2](SP_screenshot4.png)
 
 - **Fig 5.** Description of another screenshot  
