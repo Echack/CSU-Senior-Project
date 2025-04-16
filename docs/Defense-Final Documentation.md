@@ -45,7 +45,7 @@ _Describe the design, structure, and features of your implementation. Include de
 - **Fig 4.** When clicking on each weather display it will fade out the display and give a delete option.
 ![Screenshot 2](SP_screenshot4.png)
 
-- **Fig 5.** Description of another screenshot  
+- **Fig 5.** When searching for a location and clicking the search button it will change the location of the initial display. 
 ![Screenshot 2](SP_screenshot5.png)
 
 - **Fig 6.** Description of another screenshot  
