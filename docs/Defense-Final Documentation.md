@@ -37,7 +37,25 @@ _Describe the design, structure, and features of your implementation. Include de
 ![Screenshot 1](SP_screenshot1.png)
 
 - **Fig 2.** Description of another screenshot  
-![Screenshot 2](path/to/screenshot2.png)
+![Screenshot 2](SP_screenshot2.png)
+
+- **Fig 3.** Description of another screenshot  
+![Screenshot 2](SP_screenshot3.png)
+
+- **Fig 4.** Description of another screenshot  
+![Screenshot 2](SP_screenshot4.png)
+
+- **Fig 5.** Description of another screenshot  
+![Screenshot 2](SP_screenshot5.png)
+
+- **Fig 6.** Description of another screenshot  
+![Screenshot 2](SP_screenshot6.png)
+
+- **Fig 7.** Description of another screenshot  
+![Screenshot 2](SP_screenshot7.png)
+
+- **Fig 8.** Description of another screenshot  
+![Screenshot 2](SP_screenshot8.png)
 
 ### Source Code  
 [🔗 View the source code repository](https://github.com/Echack/CSU-Senior-Project/tree/master/Project)
