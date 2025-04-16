@@ -46,6 +46,7 @@ Visual Studio Code version 17.9
 
 ### **Item Pass/Fail Criteria**  
 This will all be determined on the overall display. Here are some examples...
+
 When I add a weather location it should...
 - Pass: Correctly display the weather next to the default weather.
 - Fail: Doesnt display the weather correctly next to the default weather.
