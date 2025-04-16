@@ -36,7 +36,7 @@ _Describe the design, structure, and features of your implementation. Include de
 - **Fig 1.** Here is the layout and design. 
 ![Screenshot 1](SP_screenshot1.png)
 
-- **Fig 2.** Description of another screenshot  
+- **Fig 2.** When I click the C/F button it will switch between Celsius and Fahrenheit.  
 ![Screenshot 2](SP_screenshot2.png)
 
 - **Fig 3.** Description of another screenshot  
