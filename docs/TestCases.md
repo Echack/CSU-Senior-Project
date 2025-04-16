@@ -200,3 +200,50 @@
 | **Actual Result**          | The sign in button does not work and the input is not being saved in correctly.                                                            |
 | **Pass/Fail**              | Fail                                                            |
 
+### Test Case 17: Validate the Sign in Feature.
+
+| **Test Scenario**          | Handle Invalid Search Inputs                                                               |
+|-----------------------------|--------------------------------------------------------------------------------------------|
+| **Test Case**              | Ensure that the sign in feature will allow account creation                            |
+| **Preconditions**          | Weather API must be functional, the website should be running, and Firebase must be available.                      |
+| **Test Steps**             | 1. Launch the weather website. <br> 2. Click the Sign in button. <br> 3. Enter sign in information. <br> 4. Click Sign in again |
+| **Test Data**              | Email: random@gmail.com and Password: 12345                                                                      |
+| **Expected Result**        | The sign in display will say "Sign in Successful".   |
+| **Actual Result**          | The data is being accepted, but no indication of the sign in being accepted.                                                            |
+| **Pass/Fail**              | Fail  |
+
+### Test Case 18: Validate the Sign in Feature.
+
+| **Test Scenario**          | Handle Invalid Search Inputs                                                               |
+|-----------------------------|--------------------------------------------------------------------------------------------|
+| **Test Case**              | Ensure that the sign in feature will allow account creation                            |
+| **Preconditions**          | Weather API must be functional, the website should be running, and Firebase must be available.                      |
+| **Test Steps**             | 1. Launch the weather website. <br> 2. Click the Sign in button. <br> 3. Enter sign in information. <br> 4. Click Sign in again |
+| **Test Data**              | Email: random@gmail.com and Password: 12345                                                                      |
+| **Expected Result**        | The sign in display will say "Sign in Successful".   |
+| **Actual Result**          | The data is being accepted and there is an indication of it being successful, but the sign in box does not disappear.                                                            |
+| **Pass/Fail**              | Fail  |
+
+### Test Case 19: Validate the Sign in Feature.
+
+| **Test Scenario**          | Handle Invalid Search Inputs                                                               |
+|-----------------------------|--------------------------------------------------------------------------------------------|
+| **Test Case**              | Ensure that the sign in feature will allow account creation                            |
+| **Preconditions**          | Weather API must be functional, the website should be running, and Firebase must be available.                      |
+| **Test Steps**             | 1. Launch the weather website. <br> 2. Click the Sign in button. <br> 3. Enter sign in information. <br> 4. Click Sign in again |
+| **Test Data**              | Email: random@gmail.com and Password: 12345                                                                      |
+| **Expected Result**        | The sign in display will say "Sign in Successful".   |
+| **Actual Result**          | The sign in button works, the data is being accepted and the box disappears.                                                            |
+| **Pass/Fail**              | Pass  |
+
+### Test Case 20: Validate the Sign out Feature.
+
+| **Test Scenario**          | Handle Invalid Search Inputs                                                               |
+|-----------------------------|--------------------------------------------------------------------------------------------|
+| **Test Case**              | Ensure that the sign in feature will allow account creation                            |
+| **Preconditions**          | Weather API must be functional, the website should be running, and Firebase must be available.                      |
+| **Test Steps**             | 1. Launch the weather website. <br> 2. Sign in. <br> 3. Click Sign out |
+| **Test Data**              | Email: random@gmail.com and Password: 12345                                                                      |
+| **Expected Result**        | The sign in display will say "Signed out".   |
+| **Actual Result**          | The sign out button does not sign out the user.                                                            |
+| **Pass/Fail**              | Fail  |
