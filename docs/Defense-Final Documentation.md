@@ -19,7 +19,7 @@ _Provide any background research relevant to your project. Mention existing solu
 _List all the programming languages, software libraries/frameworks, and hardware components used in this project._
 
 - **Languages:**  Java, HTML, and CSS.
-- **Software:**  Visual Studio Code
+- **Software:**  Visual Studio Code and Firebase
 - **Hardware:**  HP Envy Laptop
 
 ---
