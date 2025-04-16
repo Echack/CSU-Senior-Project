@@ -132,6 +132,7 @@ My contingency plan is to locate and find other API's that gather weather inform
 - The availability of third-party weather API's.
 - Hosting and server stability for the website.
 - Access to the test environments.
+- The availability of Firebase.
 ---
 
 ### **Approvals**  
