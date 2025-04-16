@@ -45,7 +45,9 @@ Visual Studio Code version 17.9
 ---
 
 ### **Item Pass/Fail Criteria**  
-This will all be determined on the overall display. Here are some examples...
+When a user signs in it should...
+- Pass: Display the users username on the top right of the screen to indicate the sign in was successfull.
+- Fail: It does not display the users username.
 
 When I add a weather location it should...
 - Pass: Correctly display the weather next to the default weather.
@@ -58,6 +60,14 @@ When I search a location it should...
 When the weather information displays it should...
 - Pass: Show the history of the weather for the entire day.
 - Fail: Will not display the weather for the entire day.
+
+When a user signs out it should...
+- Pass: The display of the username will change to guest and the users chosen locations should be saved to their account.
+- Fail: The username does not change to guest and the locations are not saved.
+
+When a the degrees button is clicked it should...
+- Pass: Switch between Celsius and Fahrenheit.
+- Fail: It does not switch.
 
 ---
 
