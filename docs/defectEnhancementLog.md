@@ -16,7 +16,7 @@ This document tracks all identified defects and suggested enhancements for the p
 
 | **Defect ID** | **Title**                    | **Severity** | **Priority** | **Status**     | **Module/Feature** | **Reported By** | **Assigned To** | **Date Reported** | **Date Resolved** | **Remarks**                     |
 |---------------|------------------------------|--------------|--------------|----------------|---------------------|-----------------|-----------------|-------------------|-------------------|---------------------------------|
-| DEF001        | History does not change with location | Low        | High         | Open           | Weather Display     | Evan        | Evan       | 2024-11-24        | -                 | Needs to be done             |
+| DEF001        | History does not change with location | Low        | High         | Open           | Weather Display     | Evan        | Evan       | 2024-11-24        | 2025-02-03                | Needs to be done             |
 
 
 ---
@@ -25,10 +25,10 @@ This document tracks all identified defects and suggested enhancements for the p
 
 | **Enhancement ID** | **Title**                     | **Priority** | **Status**     | **Module/Feature** | **Proposed By** | **Assigned To** | **Date Reported** | **Date Resolved** | **Remarks**                     |
 |---------------------|-------------------------------|--------------|----------------|---------------------|-----------------|-----------------|-------------------|-------------------|---------------------------------|
-| ENH001              | Add an Account Feature        | Medium       | In Progress    | Weather Locations   | Evan            | Evan            | 2024-11-23        | -                 | Requested by Evan       |
-| ENH002              | Improve Error Messages        | Low          | Open           | Error Handling      | Evan        | Evan       | 2024-11-24        | -                 | For better user experience.      |
-| ENH003              | Add More color               | Medium       | Open           | Display               | Evan   | Evan       | 2024-11-24        | -                 | For improved likability.      |
-| ENH004              | Add Air Quality               | Medium       | Open           | Weather Display               | Evan   | Evan       | 2024-11-24        | -                 | For improved data.      |
+| ENH001              | Add an Account Feature        | Medium       | In Progress    | Weather Locations   | Evan            | Evan            | 2024-11-23        | 2025-03-05                 | Requested by Evan       |
+| ENH002              | Improve Error Messages        | Low          | Open           | Error Handling      | Evan        | Evan       | 2024-11-24        | 2025-03-05                 | For better user experience.      |
+| ENH003              | Add More color               | Medium       | Open           | Display               | Evan   | Evan       | 2024-11-24        | unknown                 | For improved likability.      |
+| ENH004              | Add Air Quality               | Medium       | Open           | Weather Display               | Evan   | Evan       | 2024-11-24        | unknown                 | For more data but not needed      |
 
 ---
 
@@ -49,7 +49,7 @@ This document tracks all identified defects and suggested enhancements for the p
 - **Reported By:** Evan
 - **Assigned To:** Evan
 - **Date Reported:** 2024-11-24
-- **Date Resolved:** -
+- **Date Resolved:** 2025-02-03
 - **Remarks:** Needs to be done.
 
 ---
@@ -63,7 +63,7 @@ This document tracks all identified defects and suggested enhancements for the p
 - **Proposed By:** Evan
 - **Assigned To:** Evan
 - **Date Reported:** 2024-11-23
-- **Date Resolved:** -
+- **Date Resolved:** 2025-03-05
 - **Remarks:** Requested By Evan
 
 ### **ENH002: Improve Error Messages**
@@ -73,7 +73,7 @@ This document tracks all identified defects and suggested enhancements for the p
 - **Proposed By:** Evan
 - **Assigned To:** Evan
 - **Date Reported:** 2024-11-23
-- **Date Resolved:** -
+- **Date Resolved:** 2025-03-05
 - **Remarks:** For Better user experience.
 
 
@@ -84,7 +84,7 @@ This document tracks all identified defects and suggested enhancements for the p
 - **Proposed By:** Evan
 - **Assigned To:** Evan
 - **Date Reported:** 2024-11-23
-- **Date Resolved:** -
+- **Date Resolved:** unknown
 - **Remarks:** For Improved Likability
 
 
@@ -95,7 +95,7 @@ This document tracks all identified defects and suggested enhancements for the p
 - **Proposed By:** Evan
 - **Assigned To:** Evan
 - **Date Reported:** 2024-11-23
-- **Date Resolved:** -
+- **Date Resolved:** unknown
 - **Remarks:** For Improved Data
 
 ---
