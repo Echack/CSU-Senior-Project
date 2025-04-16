@@ -39,7 +39,7 @@ _Describe the design, structure, and features of your implementation. Include de
 - **Fig 2.** When I click the C/F button it will switch between Celsius and Fahrenheit.  
 ![Screenshot 2](SP_screenshot2.png)
 
-- **Fig 3.** Description of another screenshot  
+- **Fig 3.** When using the search bar and clicking add you can create up to three weather displays.  
 ![Screenshot 2](SP_screenshot3.png)
 
 - **Fig 4.** Description of another screenshot  
