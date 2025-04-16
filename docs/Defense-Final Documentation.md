@@ -40,22 +40,22 @@ _Describe the design, structure, and features of your implementation. Include de
 ![Screenshot 2](SP_screenshot2.png)
 
 - **Fig 3.** When using the search bar and clicking add you can create up to three weather displays.  
-![Screenshot 2](SP_screenshot3.png)
+![Screenshot 3](SP_screenshot3.png)
 
 - **Fig 4.** When clicking on each weather display it will fade out the display and give a delete option.
-![Screenshot 2](SP_screenshot4.png)
+![Screenshot 4](SP_screenshot4.png)
 
 - **Fig 5.** When searching for a location and clicking the search button it will change the location of the initial display. 
-![Screenshot 2](SP_screenshot5.png)
+![Screenshot 5](SP_screenshot5.png)
 
-- **Fig 6.** Description of another screenshot  
-![Screenshot 2](SP_screenshot6.png)
+- **Fig 6.** When clicking the contact me button it will display information on how to contact the creator.  
+![Screenshot 6](SP_screenshot6.png)
 
-- **Fig 7.** Description of another screenshot  
-![Screenshot 2](SP_screenshot7.png)
+- **Fig 7.** When clicking the sign in button a bunch of options for signing in will be displayed.  
+![Screenshot 7](SP_screenshot7.png)
 
-- **Fig 8.** Description of another screenshot  
-![Screenshot 2](SP_screenshot8.png)
+- **Fig 8.** When signed in that persons username will be displayed at the top left.  
+![Screenshot 8](SP_screenshot8.png)
 
 ### Source Code  
 [🔗 View the source code repository](https://github.com/Echack/CSU-Senior-Project/tree/master/Project)
