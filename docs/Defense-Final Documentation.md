@@ -34,7 +34,7 @@ _Describe the design, structure, and features of your implementation. Include de
 
 ### Screenshots  
 - **Fig 1.** Description of the first screenshot  
-![Screenshot 1](path/to/screenshot1.png)
+![Screenshot 1](SP screenshot1.png)
 
 - **Fig 2.** Description of another screenshot  
 ![Screenshot 2](path/to/screenshot2.png)
