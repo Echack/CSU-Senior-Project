@@ -188,3 +188,15 @@
 | **Actual Result**          | The location appears correctly and I can add up to three locations.                                                            |
 | **Pass/Fail**              | Pass                                                            |
 
+### Test Case 16: Validate the Sign in Feature.
+
+| **Test Scenario**          | Handle Invalid Search Inputs                                                               |
+|-----------------------------|--------------------------------------------------------------------------------------------|
+| **Test Case**              | Ensure that the sign in feature will allow account creation                            |
+| **Preconditions**          | Weather API must be functional, the website should be running, and Firebase must be available.                      |
+| **Test Steps**             | 1. Launch the weather website. <br> 2. Click the Sign in button. <br> 3. Enter sign in information. <br> 4. Click Sign in again |
+| **Test Data**              | Email: random@gmail.com and Password: 12345                                                                      |
+| **Expected Result**        | The sign in display will say "Sign in Successful".   |
+| **Actual Result**          | The sign in button does not work and the input is not being saved in correctly.                                                            |
+| **Pass/Fail**              | Fail                                                            |
+
