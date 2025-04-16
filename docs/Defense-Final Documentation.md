@@ -33,7 +33,7 @@ Here is a link to the project requirements.
 _Describe the design, structure, and features of your implementation. Include detailed explanations of how the system works._
 
 ### Screenshots  
-- **Fig 1.** Description of the first screenshot  
+- **Fig 1.** Here is the layout and design. 
 ![Screenshot 1](SP_screenshot1.png)
 
 - **Fig 2.** Description of another screenshot  
