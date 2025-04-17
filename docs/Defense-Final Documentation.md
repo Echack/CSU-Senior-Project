@@ -55,7 +55,7 @@ The overall design is comprised of five buttons that control the use of the proj
 ![Screenshot 6](SP_screenshot6.png)
 
 - **Fig 7.** When clicking the sign in button a bunch of options for signing in will be displayed.  
-![Screenshot 7](SP_screenshot7.png)
+![Screenshot 7](SP_screenshot.7.png)
 
 - **Fig 8.** When signed in that persons username will be displayed at the top left.  
 ![Screenshot 8](SP_screenshot8.png)
