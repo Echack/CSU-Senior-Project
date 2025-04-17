@@ -11,6 +11,7 @@ In a bid to stop this, I propose creating a website that pools information from 
 
 ## 2. Research & Background  
 I did some research on how to manipulate API's, but a lot of what I used for the project was taught at the college. I did use a template on Youtube on the kind of UI I was invisioning when thinking on how to design the project. I also used Google Firebase in order to build a secure login system for my project.
+
 Sources Used: https://www.youtube.com/watch?v=rbuSx1yEgV8
               https://www.youtube.com/watch?v=MIYQR-Ybrn4
 ---
