@@ -17,7 +17,7 @@ Although there are many weather apps, most of them rely on a single API or sourc
 
 ## 3. Project Language(s), Software, and Hardware  
 
-- **Languages:**  Java, HTML, and CSS.
+- **Languages:**  JavaScript, HTML5, and CSS3.
 - **Software:**  Visual Studio Code and Firebase
 - **Hardware:**  HP Envy Laptop
 
