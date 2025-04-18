@@ -3,9 +3,9 @@
 ---
 
 ## **Script ID:** TS001
-### **Test Case Reference:** Test Case 1 - 15
+### **Test Case Reference:** Test Case 1 - 55
 ### **Objective:**
-To validate the functionality of weather data display, history features, and the ability to manage multiple locations on the weather website.
+To validate the functionality of weather data display, history features, and the ability to manage multiple locations on the weather website. Also to make the the entire UI is functional and that the Sign in feature works
 
 ---
 
