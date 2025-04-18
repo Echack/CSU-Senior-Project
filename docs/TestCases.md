@@ -428,3 +428,123 @@
 | **Expected Result**        | Weather cards reappear                                          |
 | **Actual Result**          | Cards load from Firestore                                       |
 | **Pass/Fail**              | Pass                                                            |
+
+### Test Case 36: Refresh Clears Unsaved Weather Cards
+
+| **Test Scenario**          | Unsaved Locations Should Not Persist After Refresh             |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Add locations while signed out and refresh the page           |
+| **Preconditions**          | User is signed out                                             |
+| **Test Steps**             | 1. Add 2 locations <br> 2. Refresh page                        |
+| **Test Data**              | Cities: Seattle, Dallas                                        |
+| **Expected Result**        | Locations disappear after refresh                             |
+| **Actual Result**          | Only default location remains                                 |
+| **Pass/Fail**              | Pass                                                          |
+
+### Test Case 37: Auth Popup Close Functionality
+
+| **Test Scenario**          | Close Sign In Popup Manually                                  |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Click close button on login popup                            |
+| **Preconditions**          | Sign in form is open                                          |
+| **Test Steps**             | 1. Open login popup <br> 2. Click “Close”                    |
+| **Test Data**              | None                                                         |
+| **Expected Result**        | Login popup disappears                                       |
+| **Actual Result**          | Works as expected                                            |
+| **Pass/Fail**              | Pass                                                         |
+
+### Test Case 38: Contact Modal Button Is Always Visible
+
+| **Test Scenario**          | Ensure Contact Button Is Accessible                          |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Load the site and look for “Contact Me” button               |
+| **Preconditions**          | Page is loaded                                               |
+| **Test Steps**             | 1. Visually confirm the contact button                       |
+| **Test Data**              | None                                                         |
+| **Expected Result**        | Button is visible at all times                              |
+| **Actual Result**          | Button shows properly                                        |
+| **Pass/Fail**              | Pass                                                         |
+
+### Test Case 39: Toggle Unit Button Affects All Cards
+
+| **Test Scenario**          | Global Unit Conversion                                        |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Click unit toggle and verify change across all cards         |
+| **Preconditions**          | Two or more weather cards exist                              |
+| **Test Steps**             | 1. Add cities <br> 2. Click °C/°F button                     |
+| **Test Data**              | Cities: Houston, Miami                                       |
+| **Expected Result**        | All cards reflect new units                                 |
+| **Actual Result**          | All temperatures update correctly                           |
+| **Pass/Fail**              | Pass                                                         |
+
+### Test Case 40: Invalid Email Sign Up
+
+| **Test Scenario**          | Block Improper Email Format During Sign Up                   |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Try signing up with “user@”                                  |
+| **Preconditions**          | Firebase is connected                                        |
+| **Test Steps**             | 1. Open sign up <br> 2. Enter invalid email <br> 3. Submit   |
+| **Test Data**              | Email: user@ <br> Password: test123                          |
+| **Expected Result**        | Error message shown                                          |
+| **Actual Result**          | Error displayed correctly                                    |
+| **Pass/Fail**              | Pass                                                         |
+
+### Test Case 41: Password Length Enforcement
+
+| **Test Scenario**          | Enforce Minimum Password Length                              |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Enter a short password and attempt sign up                   |
+| **Preconditions**          | Firebase signup available                                    |
+| **Test Steps**             | 1. Use valid email <br> 2. Use “123” as password             |
+| **Test Data**              | Email: new@mail.com <br> Password: 123                       |
+| **Expected Result**        | Firebase blocks the sign up                                  |
+| **Actual Result**          | Error appears as expected                                    |
+| **Pass/Fail**              | Pass                                                         |
+
+### Test Case 42: Delete Button Visibility on Click
+
+| **Test Scenario**          | Delete Button Appears When Card is Clicked                   |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Test UI interaction for delete visibility                    |
+| **Preconditions**          | Weather card must be visible                                 |
+| **Test Steps**             | 1. Click on a card                                           |
+| **Test Data**              | Any city                                                     |
+| **Expected Result**        | “Delete” and “Cancel” buttons appear                         |
+| **Actual Result**          | Buttons appear correctly                                     |
+| **Pass/Fail**              | Pass                                                         |
+
+### Test Case 43: Close Login Popup on Overlay Click
+
+| **Test Scenario**          | Click Outside Login Box Closes It                           |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Ensure clicking background overlay hides the login form      |
+| **Preconditions**          | Login popup is open                                          |
+| **Test Steps**             | 1. Click outside popup                                       |
+| **Test Data**              | None                                                         |
+| **Expected Result**        | Form closes                                                  |
+| **Actual Result**          | Works as expected                                            |
+| **Pass/Fail**              | Pass                                                         |
+
+### Test Case 44: History Box Is Not Clickable
+
+| **Test Scenario**          | History Box Should Not Trigger Weather Card Blur             |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Click inside history section                                 |
+| **Preconditions**          | Weather and history box shown                                |
+| **Test Steps**             | 1. Click inside the hourly history                           |
+| **Test Data**              | Any city with history                                        |
+| **Expected Result**        | No blur or UI change triggered                               |
+| **Actual Result**          | Card stays in normal view                                    |
+| **Pass/Fail**              | Pass                                                         |
+
+### Test Case 45: Weather Icon Matches Condition
+
+| **Test Scenario**          | Show Correct Weather Icon                                    |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Verify icons match weather type                              |
+| **Preconditions**          | Weather API returns valid data                               |
+| **Test Steps**             | 1. Add a city with known rain                                |
+| **Test Data**              | City: Seattle                                                 |
+| **Expected Result**        | Rain icon displays                                           |
+| **Actual Result**          | Icon displays correctly                                      |
+| **Pass/Fail**              | Pass                                                         |
