@@ -63,18 +63,37 @@ The overall design is comprised of five buttons that control the use of the proj
 
 ---
 
-## 6. Test Plan & Results
-Here is a link to the test plan that establishes the type of testing used during the creation of the project and the results found after testing.
+## 6. Test Plan
+Here is a link to the test plan that establishes the type of testing used during the creation of the project.
 [Link Text](https://github.com/Echack/CSU-Senior-Project/blob/master/docs/Test%20Plan%20Document.md)
 
 ---
 
-## 7. Challenges Overcome 
+## 7. Test Results
+To evaluate usability and overall user experience, I collected feedback from a small group of users who interacted with the website. The goal was to test how intuitive and functional the application felt to new users and whether the core features behaved as expected.
+
+## Participants
+- 5 individuals (students and friends) tested the site on different devices and browsers.
+- Experience levels ranged from beginner to intermediate in tech use.
+
+
+| **Feature Tested**         | **Feedback Summary**                                                                 |
+|----------------------------|---------------------------------------------------------------------------------------|
+| **Sign In / Sign Up**      | Most users found the authentication process smooth and appreciated the clear pop-up layout. They liked seeing their username displayed once signed in. |
+| **Weather Search / Add**   | Users liked the ability to search for different cities and found the limit of three weather cards reasonable and clean. However, one person suggested a smoother way to remove a location. |
+| **Weather History Display**| Positive feedback on the layout and clarity of the hourly history. The styling made it easy to distinguish each hour’s data. Some suggested showing more visual differences between cards. |
+| **Design & UI**            | The animated background and soft theme were well received. Users described the design as “friendly” and “easy on the eyes.” |
+| **Performance**            | No major complaints. Pages loaded fast in testing, though a couple users mentioned that the site didn't load correctly on mobile without refreshing. |
+
+
+---
+
+## 8. Challenges Overcome 
 I came across a couple challenges while creating the project. The first challenge was finding API's to use and learning how to properly use their data. After an hour or two of testing I resolved the issue by following a tutorial on how to manipulate API's and their data. The second was figuring out how to setup a proper way of storying user information so I could create an account feature. I used Firebase to help me store passwords behind layers of security. Firebase stores user sign in information and saved weather data so that users will be able to have a personal connection to the site.
 
 ---
 
-## 8. Future Enhancements  
+## 9. Future Enhancements  
 Improvements and addition features that I would like to add in the future are...
 - Music
 - More fluent weather displays
