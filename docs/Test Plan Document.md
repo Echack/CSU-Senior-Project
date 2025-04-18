@@ -91,7 +91,7 @@ Detail the configuration of the test environment:
 - **Laptop**  
 - **The Software I am using is Virtual Studio Code**  
 - **CSU WIRELESS is my Network**  
-- **Tools**: I will be using a live server from Virtual Studio Code to Google Chrome. This will change in the future.
+- **Tools**: I will be using a live server from Virtual Studio Code. I am also using Firebase for the authentification part of my project.
 
 ---
 
