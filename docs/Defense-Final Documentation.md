@@ -99,7 +99,7 @@ To evaluate usability and overall user experience, I collected feedback from a s
 ---
 
 ## 8. Challenges Overcome 
-I came across a couple challenges while creating the project. The first challenge was finding API's to use and learning how to properly use their data. After an hour or two of testing I resolved the issue by following a tutorial on how to manipulate API's and their data. The second was figuring out how to setup a proper way of storying user information so I could create an account feature. I used Firebase to help me store passwords behind layers of security. Firebase stores user sign in information and saved weather data so that users will be able to have a personal connection to the site.
+I came across a couple challenges while creating the project. The first challenge was finding API's to use and learning how to properly use their data. After an hour or two of testing I resolved the issue by following a tutorial on how to manipulate API's and their data. The second was figuring out how to setup a proper way of storing user information so I could create an account feature. I used Firebase to help me store passwords behind layers of security. Firebase stores user sign in information and saved weather data so that users will be able to have a personal connection to the site.
 
 ---
 
