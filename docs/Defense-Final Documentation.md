@@ -10,11 +10,9 @@ In a bid to stop this, I propose creating a website that pools information from 
 ---
 
 ## 2. Research & Background  
-I did some research on how to manipulate API's, but a lot of what I used for the project was taught at the college. I did use a template on Youtube on the kind of UI I was invisioning when thinking on how to design the project. I also used Google Firebase in order to build a secure login system for my project.
 
-Sources Used: 
-- https://www.youtube.com/watch?v=rbuSx1yEgV8            
-- https://www.youtube.com/watch?v=MIYQR-Ybrn4
+Forecasts about the weather help individuals plan their day and select the right attire. Weather, however, can be very unpredictable, and various sources may have differing forecasts, so it is hard to predict using a single source. Such inconsistency may cause distress or even health problems when people are caught off guard by changing weather.
+Although there are many weather apps, most of them rely on a single API or source, which limits the accuracy and reliability of the data. This project aims to break that limitation by developing a site that aggregates the data from several weather APIs. By merging forecasts from different sources, the site will present users with an accurate and balanced picture of the current and future weather, thereby helping them make better day-to-day choices.
 ---
 
 ## 3. Project Language(s), Software, and Hardware  
