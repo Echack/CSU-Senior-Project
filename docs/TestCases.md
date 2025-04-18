@@ -548,3 +548,123 @@
 | **Expected Result**        | Rain icon displays                                           |
 | **Actual Result**          | Icon displays correctly                                      |
 | **Pass/Fail**              | Pass                                                         |
+
+### Test Case 46: Add Button Works Without Enter Key
+
+| **Test Scenario**          | User can add a city using only the Add button                  |
+|----------------------------|-----------------------------------------------------------------|
+| **Test Case**              | Ensure “Add” works without needing the Enter key               |
+| **Preconditions**          | Site is loaded and input is active                            |
+| **Test Steps**             | 1. Type a city <br> 2. Click “Add”                             |
+| **Test Data**              | City: Boston                                                   |
+| **Expected Result**        | Boston card appears                                            |
+| **Actual Result**          | Card displays correctly                                        |
+| **Pass/Fail**              | Pass                                                           |
+
+### Test Case 47: Weather API Fallback Works
+
+| **Test Scenario**          | App handles failure from one weather API gracefully            |
+|----------------------------|-----------------------------------------------------------------|
+| **Test Case**              | Temporarily disable one API to test response                  |
+| **Preconditions**          | APIs are functioning                                          |
+| **Test Steps**             | 1. Use dev tools to block one API <br> 2. Search a city        |
+| **Test Data**              | City: Dallas                                                   |
+| **Expected Result**        | App uses backup APIs                                           |
+| **Actual Result**          | Weather still loads                                            |
+| **Pass/Fail**              | Pass                                                           |
+
+### Test Case 48: History Header Updates With City
+
+| **Test Scenario**          | History section reflects selected city                         |
+|----------------------------|-----------------------------------------------------------------|
+| **Test Case**              | Ensure title of history matches city                           |
+| **Preconditions**          | A weather card has been added                                  |
+| **Test Steps**             | 1. Add New York <br> 2. View history title                     |
+| **Test Data**              | City: New York                                                 |
+| **Expected Result**        | Title says “New York History”                                  |
+| **Actual Result**          | Correct header appears                                          |
+| **Pass/Fail**              | Pass                                                           |
+
+### Test Case 49: History Box Loads 24 Hours
+
+| **Test Scenario**          | Hourly history should show 24 time entries                     |
+|----------------------------|-----------------------------------------------------------------|
+| **Test Case**              | View the number of hourly entries                              |
+| **Preconditions**          | Weather and history box loaded                                 |
+| **Test Steps**             | 1. Add a city <br> 2. Count entries                            |
+| **Test Data**              | City: Austin                                                   |
+| **Expected Result**        | 24 hourly entries appear                                       |
+| **Actual Result**          | 24 entries confirmed                                            |
+| **Pass/Fail**              | Pass                                                           |
+
+### Test Case 50: History Box Data Format
+
+| **Test Scenario**          | Check format of hourly weather entries                         |
+|----------------------------|-----------------------------------------------------------------|
+| **Test Case**              | Entries should include time, temp, wind, humidity              |
+| **Preconditions**          | History box is visible                                         |
+| **Test Steps**             | 1. Review data fields                                          |
+| **Test Data**              | City: San Diego                                                |
+| **Expected Result**        | Each entry is structured correctly                            |
+| **Actual Result**          | Data is properly formatted                                     |
+| **Pass/Fail**              | Pass                                                           |
+
+### Test Case 51: Card Buttons Hidden Initially
+
+| **Test Scenario**          | Delete and Cancel buttons only appear after click             |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Check visibility of buttons on load                           |
+| **Preconditions**          | Card is created                                                |
+| **Test Steps**             | 1. Add city <br> 2. Observe card                               |
+| **Test Data**              | City: Nashville                                                |
+| **Expected Result**        | No buttons until clicked                                      |
+| **Actual Result**          | Buttons are hidden initially                                  |
+| **Pass/Fail**              | Pass                                                           |
+
+### Test Case 52: Prevent Whitespace Submissions
+
+| **Test Scenario**          | Disallow blank or space-only city inputs                      |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Submit only space characters                                  |
+| **Preconditions**          | Site is loaded                                                 |
+| **Test Steps**             | 1. Enter “     ” <br> 2. Press Add                            |
+| **Test Data**              | Input: blank                                                   |
+| **Expected Result**        | Error or alert triggered                                      |
+| **Actual Result**          | Entry blocked successfully                                    |
+| **Pass/Fail**              | Pass                                                           |
+
+### Test Case 53: Card Spacing Maintained on Mobile
+
+| **Test Scenario**          | Cards should wrap or scroll on mobile                         |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Use device emulation for small screen                         |
+| **Preconditions**          | Add 3 cards                                                    |
+| **Test Steps**             | 1. View site on mobile resolution                             |
+| **Test Data**              | N/A                                                            |
+| **Expected Result**        | Cards stack or scroll cleanly                                 |
+| **Actual Result**          | Layout stays neat                                              |
+| **Pass/Fail**              | Pass                                                           |
+
+### Test Case 54: Firestore Saves Last City Added
+
+| **Test Scenario**          | Last selected cities saved to user profile                    |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Log in, add cards, log out and back in                        |
+| **Preconditions**          | Firebase setup complete                                        |
+| **Test Steps**             | 1. Add 3 cities <br> 2. Log out/in                            |
+| **Test Data**              | Cities: Denver, Tampa, Orlando                                |
+| **Expected Result**        | Cards restored after login                                    |
+| **Actual Result**          | Firebase restores cities                                      |
+| **Pass/Fail**              | Pass                                                           |
+
+### Test Case 55: Sign In Button Label Changes
+
+| **Test Scenario**          | “Sign In” button becomes “Sign Out” after login              |
+|----------------------------|----------------------------------------------------------------|
+| **Test Case**              | Observe button label after auth                              |
+| **Preconditions**          | User logs in                                                  |
+| **Test Steps**             | 1. Sign in <br> 2. View button                                |
+| **Test Data**              | Email: user@wethite.com                                       |
+| **Expected Result**        | Button text changes                                           |
+| **Actual Result**          | Text updates correctly                                        |
+| **Pass/Fail**              | Pass                                                           |
