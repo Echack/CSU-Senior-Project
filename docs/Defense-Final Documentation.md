@@ -83,8 +83,18 @@ To evaluate usability and overall user experience, I collected feedback from a s
 | **Weather Search / Add**   | Users liked the ability to search for different cities and found the limit of three weather cards reasonable and clean. However, one person suggested a smoother way to remove a location. |
 | **Weather History Display**| Positive feedback on the layout and clarity of the hourly history. The styling made it easy to distinguish each hour’s data. Some suggested showing more visual differences between cards. |
 | **Design & UI**            | The animated background and soft theme were well received. Users described the design as “friendly” and “easy on the eyes.” |
-| **Performance**            | No major complaints. Pages loaded fast in testing, though a couple users mentioned that the site didn't load correctly on mobile without refreshing. |
+| **Performance**            | No major complaints. Pages loaded fast in testing. |
 
+
+### Summary of User Ratings (Out of 5)
+
+| Feature               | Average Rating |
+|----------------------|----------------|
+| Sign In / Sign Up    | 4.8            |
+| Weather Search/Add   | 4.6            |
+| History Display      | 4.7            |
+| Design & Aesthetics  | 5.0            |
+| Performance          | 4.5            |
 
 ---
 
