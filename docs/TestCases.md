@@ -307,3 +307,124 @@
 | **Expected Result**        | New York weather card with history should be displayed.                                   |
 | **Actual Result**          | Default location does not appear unless manually searched.                                |
 | **Pass/Fail**              | Fail                                                                                       |
+
+
+### Test Case 26: Validate Contact Modal Opens
+
+| **Test Scenario**          | Display Contact Information Modal                              |
+|----------------------------|------------------------------------------------------------------|
+| **Test Case**              | Ensure the contact modal appears when clicking “Contact Me”     |
+| **Preconditions**          | Website is loaded and button is visible                         |
+| **Test Steps**             | 1. Click “Contact Me” button                                    |
+| **Test Data**              | None                                                            |
+| **Expected Result**        | A modal with contact info should appear                         |
+| **Actual Result**          | Modal opens and displays email and phone                        |
+| **Pass/Fail**              | Pass                                                            |
+
+### Test Case 27: Validate Contact Modal Closes
+
+| **Test Scenario**          | Contact Modal Dismissal                                         |
+|----------------------------|------------------------------------------------------------------|
+| **Test Case**              | Ensure clicking outside or “Close” hides the modal              |
+| **Preconditions**          | Contact modal is open                                           |
+| **Test Steps**             | 1. Click outside the modal or on “Close”                        |
+| **Test Data**              | None                                                            |
+| **Expected Result**        | Modal disappears completely                                     |
+| **Actual Result**          | Modal closes as expected                                        |
+| **Pass/Fail**              | Pass                                                            |
+
+### Test Case 28: Prevent Duplicate Location Entries
+
+| **Test Scenario**          | Disallow Adding Same City Twice                                 |
+|----------------------------|------------------------------------------------------------------|
+| **Test Case**              | Try adding the same city multiple times                         |
+| **Preconditions**          | One location is already added                                   |
+| **Test Steps**             | 1. Add “Atlanta” <br> 2. Try adding it again                    |
+| **Test Data**              | City: Atlanta                                                   |
+| **Expected Result**        | Second entry is blocked with a message                         |
+| **Actual Result**          | City not added twice                                            |
+| **Pass/Fail**              | Pass                                                            |
+
+### Test Case 29: Validate City Capitalization
+
+| **Test Scenario**          | Capitalize City Names on Cards                                  |
+|----------------------------|------------------------------------------------------------------|
+| **Test Case**              | Ensure city names display with proper capitalization            |
+| **Preconditions**          | Add a lowercase city like “boston”                              |
+| **Test Steps**             | 1. Search for “boston”                                          |
+| **Test Data**              | City: boston                                                    |
+| **Expected Result**        | City appears as “Boston” on card                                |
+| **Actual Result**          | Display is correctly capitalized                                |
+| **Pass/Fail**              | Pass                                                            |
+
+### Test Case 30: Validate Clear Auth Inputs on Sign Out
+
+| **Test Scenario**          | Clear Sign-In Fields After Logout                               |
+|----------------------------|------------------------------------------------------------------|
+| **Test Case**              | Ensure input boxes reset when logging out                       |
+| **Preconditions**          | User has logged in                                               |
+| **Test Steps**             | 1. Log in <br> 2. Sign out <br> 3. Reopen login form            |
+| **Test Data**              | Email: test@test.com                                            |
+| **Expected Result**        | Email and password fields are empty                             |
+| **Actual Result**          | Inputs are cleared                                               |
+| **Pass/Fail**              | Pass                                                            |
+
+### Test Case 31: Validate Animation on Weather Card Blur
+
+| **Test Scenario**          | Blur Effect When Clicking Card                                  |
+|----------------------------|------------------------------------------------------------------|
+| **Test Case**              | Click on a card to show blur and options                        |
+| **Preconditions**          | Weather card is displayed                                       |
+| **Test Steps**             | 1. Click on a weather card                                      |
+| **Test Data**              | None                                                            |
+| **Expected Result**        | Card content blurs and shows delete/cancel                     |
+| **Actual Result**          | Works as expected                                               |
+| **Pass/Fail**              | Pass                                                            |
+
+### Test Case 32: Cancel Blur Effect
+
+| **Test Scenario**          | Cancel Button Removes Blur and Options                          |
+|----------------------------|------------------------------------------------------------------|
+| **Test Case**              | Test Cancel functionality on blurred cards                      |
+| **Preconditions**          | Card is blurred with options shown                              |
+| **Test Steps**             | 1. Click card <br> 2. Click “Cancel”                            |
+| **Test Data**              | None                                                            |
+| **Expected Result**        | Card returns to normal view                                     |
+| **Actual Result**          | Card clears blur as expected                                    |
+| **Pass/Fail**              | Pass                                                            |
+
+### Test Case 33: Display Error on Invalid City
+
+| **Test Scenario**          | Error Display for Invalid Search                                |
+|----------------------------|------------------------------------------------------------------|
+| **Test Case**              | Enter a non-existent location name                              |
+| **Preconditions**          | Site is loaded                                                  |
+| **Test Steps**             | 1. Search for “asdkjaskd”                                       |
+| **Test Data**              | City: asdkjaskd                                                 |
+| **Expected Result**        | Error message is displayed                                      |
+| **Actual Result**          | Error shows correctly                                           |
+| **Pass/Fail**              | Pass                                                            |
+
+### Test Case 34: Sign In Popup on First Visit
+
+| **Test Scenario**          | Auto Show Sign In on Load                                       |
+|----------------------------|------------------------------------------------------------------|
+| **Test Case**              | Sign in popup opens when user is not logged in                 |
+| **Preconditions**          | User is signed out                                              |
+| **Test Steps**             | 1. Load the site                                                |
+| **Test Data**              | None                                                            |
+| **Expected Result**        | Sign in modal appears                                           |
+| **Actual Result**          | Popup appears as expected                                       |
+| **Pass/Fail**              | Pass                                                            |
+
+### Test Case 35: Persist Weather Cards for Logged In Users
+
+| **Test Scenario**          | Reload User-Specific Weather Cards                              |
+|----------------------------|------------------------------------------------------------------|
+| **Test Case**              | Check that previously selected locations reappear after login   |
+| **Preconditions**          | User has saved locations in Firestore                           |
+| **Test Steps**             | 1. Log in <br> 2. Observe restored cards                        |
+| **Test Data**              | Email: testuser@gmail.com                                       |
+| **Expected Result**        | Weather cards reappear                                          |
+| **Actual Result**          | Cards load from Firestore                                       |
+| **Pass/Fail**              | Pass                                                            |
