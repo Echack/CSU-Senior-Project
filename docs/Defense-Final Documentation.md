@@ -8,14 +8,14 @@
 
 
 ## Abstract
-Wethite is a responsive weather website that integrates multiple weather APIs and Firebase Authentication to provide users with personalized and accurate weather information. Users can search for and save locations, view current weather and hourly forecasts, and manage their sessions via sign-in and sign-out functionality. This project emphasizes user-friendly design and real-world web development tools.
+Wethite is an interactive weather website that integrates various weather APIs and Firebase Authentication to provide users with precise and personalized weather information. It enables users to search and save locations, view current and hourly weather forecasts, and manage sessions using sign-in and sign-out functionality. This project concentrates on interactive design and real-world web development technologies.
 
 ## 1. Statement of Purpose  
 ### Problem Statement  
-People apply weather forecasts to wear appropriate attire and stay comfortable throughout the day. The weather is, however, unpredictable, and contradictory data from various weather sources typically renders it impossible to make an estimation of what to anticipate. This can lead to discomfort or even illness from wearing inappropriate attire for the weather.
+People rely on weather forecasts to dress in appropriate clothing and feel comfortable throughout the day. However, weather is generally unpredictable and inconsistency across weather sources makes it difficult to provide users with trust when planning for the day. Such inaccurate information can lead to discomfort or health risks from overdressing or underdressing for current conditions.
 
-In a bid to stop this, I propose creating a website that pools information from over one weather API to provide a more realistic and accurate picture of the current and future weather. Through providing more clarity, the tool will help users make better judgment when it comes to dressing up and getting ready for the day, especially since weather patterns become more unpredictable day by day.
-
+## Statement of Purpose
+The target of this project is to develop an online weather application that aggregates information from a number of weather APIs so as to provide a more comprehensive and accurate forecast. By eliminating uncertainty caused by conflicting data, the application aids users in making logical choices about their daily wardrobe and planning. The application is designed to be responsive, user-friendly, and intuitive—offering an efficient solution as climatic conditions become increasingly unpredictable.
 
 ---
 
