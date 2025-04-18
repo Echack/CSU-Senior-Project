@@ -1,4 +1,14 @@
-# Defense Documentation
+# Wethite: The Sky Is Just a Click Away
+
+**Author:** Evan Hack
+
+**Major:** Cybersecurity
+
+**Project Advisor:** Songhui Yue
+
+
+## Abstract
+Wethite is a responsive weather website that integrates multiple weather APIs and Firebase Authentication to provide users with personalized and accurate weather information. Users can search for and save locations, view current weather and hourly forecasts, and manage their sessions via sign-in and sign-out functionality. This project emphasizes user-friendly design and real-world web development tools.
 
 ## 1. Statement of Purpose  
 ### Problem Statement  
