@@ -11,7 +11,7 @@ To compile or deploy download to Visual Studio Code and open a live server. Also
 Its usage will be based on telling the weather and allowing users to create their own account to save the locations they have chosen to observe the weather.
 
 ## Testing
-Any tesing can be found in the doc folder.
+Any tesing can be found in the doc folder. [Link Text](https://github.com/Echack/CSU-Senior-Project/blob/master/docs/Test%20Plan%20Document.md)
 
 ## Sources Used
 I did some research on how to manipulate API's, but a lot of what I used for the project was taught at the college. I did use a template on Youtube on the kind of UI I was envisioning when thinking on how to design the project. I also used Google Firebase in order to build a secure login system for my project.
