@@ -19,3 +19,16 @@ I did some research on how to manipulate API's, but a lot of what I used for the
 Sources Used: 
 - https://www.youtube.com/watch?v=rbuSx1yEgV8            
 - https://www.youtube.com/watch?v=MIYQR-Ybrn4
+
+Websites where API's were found:
+- Open-Meteo
+- OpenWeatherMap
+- Weatherstack
+- Tomorrow.io
+- WeatherAPI.com
+- Weatherbit
+- National Weather Service API
+- Visual Crossing Weather API
+- Weather 2020 API
+- Aeris Weather API
+- Tomorrow.io
