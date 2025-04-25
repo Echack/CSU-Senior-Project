@@ -125,4 +125,4 @@ Improvements and addition features that I would like to add in the future are...
 ---
 
 ## 10. Defense Presentation Slides
-[Link Text](https://github.com/Echack/CSU-Senior-Project/blob/master/docs/Defense%20Presentation.pdf)
+[Link Text](https://github.com/Echack/CSU-Senior-Project/blob/master/docs/Defense_Presentation.pdf)
