@@ -2,7 +2,7 @@
 
 The product will be a website that more accurately displays the weather than any other site. It will combine the temperature from other sites and give the average of the weather to best display the weather. It will also have other function like allowing you to look at what the weather is like in other location.
 
-Here is a link that includes documentation for the project: [Link Text](https://github.com/Echack/CSU-Senior-Project/blob/master/docs/Defense_Presentation.pdf)
+Here is a link that includes documentation for the project: [Link Text](https://github.com/Echack/CSU-Senior-Project/blob/master/docs/Defense-Final%20Documentation.md)
 
 ## Compile/Deploy
 To compile or deploy download to Visual Studio Code and open a live server. Also here is what the website should look like: https://wethite-5140b.web.app/
